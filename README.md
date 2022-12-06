@@ -38,10 +38,10 @@ I hope you're having a good day.
 
 I recently worked with the dataset for fetch rewards, namely the receipts, users, and brands data, and I was wanting to share my discoveries, potential problems, and gain a better understanding of the data. I'll start by providing some context on how I went about handling this data. I used Python to read, clean, and arrange the data into a more readable way because the data was in zipped json files. After the data had been cleansed, I performed some quality tests and had the following comments and questions:
 
-      1.	I saw that there were several records for the same user, last login time, and created time when I felt the urge to verify if there were unique Users by ID in the User database. I wanted to learn why this was the case.
-      2.	A large number of receipts contained brandcodes that were absent from the brands data. When we aggregate by brands to provide analysis, this could be a concern.
-      3.	I observed that the "brandCodes" are not numerical, and given my experience working with databases, I would advise making the foreign keys numerical to avoid problems that could arise when merging the data due to minute changes in the string.
-      4.	Additionally, the User database has a huge number of duplicate records. I would strongly advise going over them to remove any redundant records to maintain data consistency.
+1.	I saw that there were several records for the same user, last login time, and created time when I felt the urge to verify if there were unique Users by ID in the User database. I wanted to learn why this was the case.
+2.	A large number of receipts contained brandcodes that were absent from the brands data. When we aggregate by brands to provide analysis, this could be a concern.
+3.	I observed that the "brandCodes" are not numerical, and given my experience working with databases, I would advise making the foreign keys numerical to avoid problems that could arise when merging the data due to minute changes in the string.
+4.	Additionally, the User database has a huge number of duplicate records. I would strongly advise going over them to remove any redundant records to maintain data consistency.
 
 Finally, I discovered that the date formats were inconsistent with the typical MM/DD/YYYY or other traditional date forms. A mapping specification for this metric would aid in resolving the problem and hence ensuring data is clean & consistent.
 
