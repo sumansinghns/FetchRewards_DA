@@ -6,9 +6,7 @@ There were 3 data sets given namely 'Receipts', 'User' and 'Brand'.
 
 After analyzing the JSON files, it was obvious that there was no natural identifier connecting Brands to Receipts because the pipe-=delimited entries in Receipts > rewardsReceiptItemList did not have a brand ID or barcode value to link to the Brands table. It also became clear that another level of detail would be required to connect receipts to brands, which I did by creating the receipt product table to link the two tables.
 
-<img width="1080" alt="ER" src="https://user-images.githubusercontent.com/95984580/205783049-a9e958be-33ef-40f6-8411-3d5bc76d4b79.png">
-
-
+I have attached the design for the Relational Data Model in ER.png
 
 ### Second Task: Write a query that directly answers a predetermined question from a business stakeholder
 I have included all the queries in the FetchRewards_DA.ipynb that were executed to answer questions such as -
