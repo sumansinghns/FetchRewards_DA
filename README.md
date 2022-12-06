@@ -11,10 +11,10 @@ I have attached the design for the Relational Data Model in ER.png
 ### Second Task: Write a query that directly answers a predetermined question from a business stakeholder
 I have included all the queries in the FetchRewards_DA.ipynb that were executed to answer questions such as -
 
-When considering average spend from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
-When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
-Which brand has the most spend among users who were created within the past 6 months?
-Which brand has the most transactions among users who were created within the past 6 months?
+	  When considering average spend from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
+	  When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
+	  Which brand has the most spend among users who were created within the past 6 months?
+	  Which brand has the most transactions among users who were created within the past 6 months?
 
 ### Third Task: Evaluate Data Quality Issues in the Data Provided
 
@@ -51,5 +51,4 @@ I have a plan to deal with the issues stated above and I would love to discuss t
 Let me know what time works best for you.
 
 Best,
-
 Suman Singh
