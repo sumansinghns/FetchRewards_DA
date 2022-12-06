@@ -1,13 +1,13 @@
-### Fetch Rewards Data Analyst Assessment
+# Fetch Rewards Data Analyst Assessment
 
-#### First Task: Review Existing Unstructured Data and Diagram a New Structured Relational Data Model
+### First Task: Review Existing Unstructured Data and Diagram a New Structured Relational Data Model
 
 There were 3 data sets given namely 'Receipts', 'User' and 'Brand'.
 
 After analyzing the JSON files, it was obvious that there was no natural identifier connecting Brands to Receipts because the pipe-=delimited entries in Receipts > rewardsReceiptItemList did not have a brand ID or barcode value to link to the Brands table. It also became clear that another level of detail would be required to connect receipts to brands, which I did by creating the receipt product table to link the two tables.
 
 
-#### Second Task: Write a query that directly answers a predetermined question from a business stakeholder
+### Second Task: Write a query that directly answers a predetermined question from a business stakeholder
 I have included all the queries that were executed to answer questions such as -
 
 When considering average spend from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
@@ -15,7 +15,7 @@ When considering total number of items purchased from receipts with 'rewardsRece
 Which brand has the most spend among users who were created within the past 6 months?
 Which brand has the most transactions among users who were created within the past 6 months?
 
-#### Third Task: Evaluate Data Quality Issues in the Data Provided
+### Third Task: Evaluate Data Quality Issues in the Data Provided
 
 The brand data was unsuitable to be a dimension table because it contained a number of duplicates.
 
@@ -30,7 +30,7 @@ b) 'Users' : More than half of the records are duplicate.
 c) 'Brands': 'topBrand' and 'categoryCode' columns have a substantial percentage of values missing.
 
 
-#### Fourth Task: Communicate with Stakeholders
+### Fourth Task: Communicate with Stakeholders
 
 Hi All,
 
