@@ -8,7 +8,7 @@ After analyzing the JSON files, it was obvious that there was no natural identif
 
 
 ### Second Task: Write a query that directly answers a predetermined question from a business stakeholder
-I have included all the queries that were executed to answer questions such as -
+I have included all the queries in the FetchRewards_DA.ipynb that were executed to answer questions such as -
 
 When considering average spend from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
 When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
@@ -50,4 +50,5 @@ I have a plan to deal with the issues stated above and I would love to discuss t
 Let me know what time works best for you.
 
 Best,
+
 Suman Singh
